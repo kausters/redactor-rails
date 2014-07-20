@@ -1,4 +1,4 @@
-# Rails 3.2 Integration for Redactor (NO Devise Edition)
+# Rails 4 Integration for Redactor with Paperclip (NO Devise Edition)
 
 The redactor-rails gem integrates the [Redactor](http://redactorjs.com/) editor with the Rails 3.2 asset pipeline.
 
@@ -8,7 +8,7 @@ This gem bundles Redactor version 9.1.9 which is the most recent version as of D
 
 Add this line to your application's Gemfile:
 
-    gem 'redactor-rails-paperclip'
+    gem 'redactor-rails-paperclip', github: "artursbraucs/redactor-rails-paperclip"
 
 And then execute:
 
