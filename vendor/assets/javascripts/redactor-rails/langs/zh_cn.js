@@ -1,12 +1,13 @@
 //@chen1706@gmail.com
-var RELANG = {};
-RELANG['zh_cn'] = {
+(function ($) {
+$.Redactor.opts.langs['zh_cn'] = {
 	html: 'HTML代码',
 	video: '视频',
 	image: '图片',
 	table: '表格',
 	link: '链接',
 	link_insert: '插入链接',
+	link_edit: '编辑链接',
 	unlink: '取消链接',
 	formatting: '样式',
 	paragraph: '段落',
@@ -16,6 +17,7 @@ RELANG['zh_cn'] = {
 	header2: '二级标题',
 	header3: '三级标题',
 	header4: '四级标题',
+	header5: '五级标题',
 	bold:  '粗体',
 	italic: '斜体',
 	fontcolor: '字体颜色',
@@ -66,5 +68,8 @@ RELANG['zh_cn'] = {
 	anchor: '锚点',
 	link_new_tab: '在新窗口打开',
 	underline: '下划线',
-	alignment: '对齐方式'
+	alignment: '对齐方式',
+	filename: '文件名 (可选)',
+	edit: '编辑'
 };
+})( jQuery );
