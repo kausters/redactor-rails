@@ -61,9 +61,9 @@ For each textarea that you want to use with Redactor, add the "redactor" class a
 
     <%= text_area_tag :editor, "", class: "redactor", rows: 40, cols: 120 %>
 
-### Custom Your redactor
+### Customize the Redactor editor
 
-If you need change some config in redactor, you can
+If you need change some config in Redactor, you can
 
     $ rails generate redactor:config
 
@@ -87,7 +87,6 @@ Add to your application.js (version >= 0.4)
 or add to your layout
 
     <%= redactor_lang('lv') %>
-
 
 ## Contributing
 
