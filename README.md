@@ -67,16 +67,16 @@ If you need change some config in Redactor, you can
 
     $ rails generate redactor:config
 
-Then generate `app\assets\redactor-rails\config.js`.
+Then generate `app/assets/redactor-rails/config.js`.
 
 See the [Redactor Documentation](http://redactorjs.com/docs/settings/) for a full list of configuration options.
 
 
 If You Want To setup a new language in Redactor you should do two things:
 
-In you file `app\assets\redactor-rails\config.js` set option
+In you file `app/assets/redactor-rails/config.js` set option
 
-    "lang":'lv'
+    lang: 'lv'
 
 and
 
