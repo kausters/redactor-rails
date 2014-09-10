@@ -1,11 +1,12 @@
 (function ($) {
 $.Redactor.opts.langs['lv'] = {
-	html: 'HTML кods',
+	html: 'HTML kods',
 	video: 'Video',
 	image: 'Attēls',
 	table: 'Tabula',
 	link: 'Saite',
-	link_insert: 'Iekļaut saiti ...',
+	link_insert: 'Ievietot saiti…',
+	link_edit: 'Labot saiti',
 	unlink: 'Noņemt saiti',
 	formatting: 'Stili',
 	paragraph: 'Vienkāršs teksts',
@@ -15,8 +16,8 @@ $.Redactor.opts.langs['lv'] = {
 	header2: 'Virsraksts 2',
 	header3: 'Virsraksts 3',
 	header4: 'Virsraksts 4',		
-	bold:  'Pustrekns',
-	italic: 'Slīps',
+	bold:  'Pustrekni',
+	italic: 'Slīpi',
 	fontcolor: 'Teksta krāsa',
 	backcolor: 'Fona krāsa',
 	unorderedlist: 'Parasts saraksts',
@@ -61,6 +62,7 @@ $.Redactor.opts.langs['lv'] = {
 	align_justify: 'Izlīdzināt malas',
 	horizontalrule: 'Horizontāla līnija',
 	fullscreen: 'Pa visu ekrānu',
-    anchor: 'Anchor'	
+  anchor: 'Anchor',
+  edit: 'Labot'
 };
 })( jQuery );
