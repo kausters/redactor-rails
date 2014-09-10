@@ -17,4 +17,5 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency("mime-types")
   gem.add_dependency("orm_adapter")
+  gem.add_dependency('sprockets-rails', '>= 2.0')
 end
