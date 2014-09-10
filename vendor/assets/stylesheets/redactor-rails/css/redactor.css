@@ -3,6 +3,7 @@
 	overflow: visible;
 	border: 1px solid #ddd;
 	background-color: #fff;
+	z-index: 0;
 }
 
 body .redactor_air {
@@ -17,9 +18,9 @@ body .redactor_box_fullscreen {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000000;
+    right: 0;
+    z-index: 9999;
     overflow: hidden;
-    width: 100%;
 }
 
 .redactor_box iframe {
@@ -30,7 +31,7 @@ body .redactor_box_fullscreen {
 
 .redactor-link-tooltip {
 	position: absolute;
-	z-index: 3000;
+	z-index: 1;
 	padding: 10px;
 	line-height: 1;
 	display: inline-block;
@@ -53,7 +54,6 @@ body .redactor_box_fullscreen {
 
 .redactor_box textarea, .redactor_box textarea:focus {
 	position: relative;
-	z-index: 1004;
 	display: block;
 	overflow: auto;
 	margin: 0;
@@ -509,7 +509,7 @@ body .redactor_toolbar li a.redactor_btn_pre		 		{ background-position: -875px; 
 	position: absolute;
 	top: 28px;
 	left: 0;
-	z-index: 2004;
+	z-index: 2;
 	padding: 10px;
 	width: 200px;
 	background-color: #fff;
@@ -541,7 +541,7 @@ body .redactor_toolbar li a.redactor_btn_pre		 		{ background-position: -875px; 
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 50000;
+	z-index: 9999;
 	margin: auto;
 	width: 100%;
 	height: 100%;
@@ -556,9 +556,9 @@ body .redactor_toolbar li a.redactor_btn_pre		 		{ background-position: -875px; 
 	position: fixed;
 	top: 50%;
 	left: 50%;
-  	z-index: 50001;
+	z-index: 9999;
 	padding: 0;
-  	border-radius: 3px;
+  border-radius: 3px;
 	background: #f5f5f5;
 	box-shadow: 0px 5px 60px #000;
 	color: #000;
@@ -781,7 +781,7 @@ body .redactor_toolbar li a.redactor_btn_pre		 		{ background-position: -875px; 
 	width: 200px;
 	margin-left: -130px;
 	margin-top: -35px;
-	z-index: 10000;
+	z-index: 9999;
 	padding: 30px;
 	background: rgba(0, 0, 0, .7);
 	box-shadow: none;
