@@ -51,9 +51,9 @@ Add to your `application.js`:
 
       //= require redactor-rails
 
-Add to your `application.css`:
+Add to your `application.css.scss`:
 
-      *= require redactor-rails
+    @import 'redactor-rails';
 
 ### Initialize Redactor
 
