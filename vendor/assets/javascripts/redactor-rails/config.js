@@ -8,8 +8,7 @@ window.init_redactor = function(){
   $('.redactor').redactor(
     { imageUpload: "/redactor_rails/pictures?" + params,
       imageGetJson: "/redactor_rails/pictures",
-      path: "/assets/redactor-rails",
-      css: "style.css"}
+      path: "/assets/redactor-rails" }
   );
 }
 
