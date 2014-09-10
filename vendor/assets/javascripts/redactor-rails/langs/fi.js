@@ -5,7 +5,7 @@ $.Redactor.opts.langs['fi'] = {
 	image: 'Kuva',
 	table: 'Taulukko',
 	link: 'Linkki',
-	link_insert: 'Lisää linkki...',
+	link_insert: 'Lisää linkki…',
 	unlink: 'Poista linkki',
 	formatting: 'Tyylit',
 	paragraph: 'Normaaliteksti',

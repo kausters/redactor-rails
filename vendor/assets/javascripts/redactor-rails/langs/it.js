@@ -5,7 +5,7 @@ $.Redactor.opts.langs['it'] = {
 	image: 'Immagine',
 	table: 'Tabella',
 	link: 'Collegamento',
-	link_insert: 'Inserisci un collegamento ...',
+	link_insert: 'Inserisci un collegamento…',
 	unlink: 'Rimuovi il collegamento',
 	formatting: 'Stili',
 	paragraph: 'Paragrafo',

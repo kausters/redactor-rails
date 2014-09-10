@@ -5,7 +5,7 @@ $.Redactor.opts.langs['sk'] = {
 	image: 'Obrázok',
 	table: 'Tabulka',
 	link: 'Odkaz',
-	link_insert: 'Vložiť odkaz ...',
+	link_insert: 'Vložiť odkaz…',
 	unlink: 'Odstrániť odkaz',
 	formatting: 'Štýl',
 	paragraph: 'Odstavec',

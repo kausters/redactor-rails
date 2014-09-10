@@ -5,7 +5,7 @@ $.Redactor.opts.langs['tr'] = {
 	image: 'Görsel',
 	table: 'Tablo',
 	link: 'Bağlantı',
-	link_insert: 'Bağlantı Ekle ...',
+	link_insert: 'Bağlantı Ekle…',
 	unlink: 'Bağlantı Kaldır',
 	formatting: 'Stiller',
 	paragraph: 'Paragraf',

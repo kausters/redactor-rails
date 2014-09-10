@@ -5,7 +5,7 @@ $.Redactor.opts.langs['ja'] = {
 	image: 'イメージ',
 	table: 'テーブル',
 	link: 'リンク',
-	link_insert: 'リンクの挿入 ...',
+	link_insert: 'リンクの挿入…',
 	unlink: 'リンクを外す',
 	formatting: 'スタイル',
 	paragraph: '段落',

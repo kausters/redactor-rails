@@ -5,7 +5,7 @@ $.Redactor.opts.langs['sr-cir'] = {
 	image: 'Убаци фотографију',
 	table: 'Табела',
 	link: 'Веза',
-	link_insert: 'Убаци везу ...',
+	link_insert: 'Убаци везу…',
 	unlink: 'Уклони везу',
 	formatting: 'Стилови',
 	paragraph: 'Параграф',

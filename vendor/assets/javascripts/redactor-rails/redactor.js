@@ -211,11 +211,11 @@
 			langs: {
 				en: {
 					html: 'HTML',
-					video: 'Insert Video ...',
-					image: 'Insert Image ...',
+					video: 'Insert Video…',
+					image: 'Insert Image…',
 					table: 'Table',
 					link: 'Link',
-					link_insert: 'Insert link ...',
+					link_insert: 'Insert link…',
 					link_edit: 'Edit link',
 					unlink: 'Unlink',
 					formatting: 'Formatting',
@@ -239,7 +239,7 @@
 					insert: 'Insert',
 					save: 'Save',
 					_delete: 'Delete',
-					insert_table: 'Insert Table ...',
+					insert_table: 'Insert Table…',
 					insert_row_above: 'Add Row Above',
 					insert_row_below: 'Add Row Below',
 					insert_column_left: 'Add Column Left',
@@ -261,7 +261,7 @@
 					mailto: 'Email',
 					web: 'URL',
 					video_html_code: 'Video Embed Code',
-					file: 'Insert File ...',
+					file: 'Insert File…',
 					upload: 'Upload',
 					download: 'Download',
 					choose: 'Choose',
@@ -4696,7 +4696,7 @@
 			var tooltip = $('<span class="redactor-link-tooltip"></span>');
 
 			var href = $link.attr('href');
-			if (href.length > 24) href = href.substring(0,24) + '...';
+			if (href.length > 24) href = href.substring(0,24) + '…';
 
 			var aLink = $('<a href="' + $link.attr('href') + '" target="_blank">' + href + '</a>').on('click', $.proxy(function(e)
 			{
@@ -7272,7 +7272,7 @@
 				{
 					var href = (html.match(url1) || html.match(url2));
 					href = href[0];
-					if (href.length > linkSize) href = href.substring(0, linkSize) + '...';
+					if (href.length > linkSize) href = href.substring(0, linkSize) + '…';
 
 					html = html.replace(/&/g, '&amp;')
 					.replace(/</g, '&lt;')

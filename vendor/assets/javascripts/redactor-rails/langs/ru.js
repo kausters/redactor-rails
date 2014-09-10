@@ -5,7 +5,7 @@ $.Redactor.opts.langs['ru'] = {
 	image: 'Изображение',
 	table: 'Таблица',
 	link: 'Ссылка',
-	link_insert: 'Вставить ссылку ...',
+	link_insert: 'Вставить ссылку…',
 	unlink: 'Удалить ссылку',
 	formatting: 'Форматирование',
 	paragraph: 'Обычный текст',

@@ -5,7 +5,7 @@ $.Redactor.opts.langs['ba'] = {
 	image: 'Ubaci fotografiju',
 	table: 'Tabela',
 	link: 'Veza',
-	link_insert: 'Ubaci vezu ...',
+	link_insert: 'Ubaci vezu…',
 	unlink: 'Ukloni vezu',
 	formatting: 'Stilovi',
 	paragraph: 'Paragraf',

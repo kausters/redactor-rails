@@ -5,7 +5,7 @@ $.Redactor.opts.langs['by'] = {
     image: 'Малюнак',
     table: 'Табліца',
     link: 'Спасылка',
-    link_insert: 'Уставіць спасылку ...',
+    link_insert: 'Уставіць спасылку…',
     unlink: 'Выдаліць спасылку',
     formatting: 'Стылі',
     paragraph: 'Звычайны тэкст',

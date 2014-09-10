@@ -1,11 +1,11 @@
 (function ($) {
 $.Redactor.opts.langs['eo'] = {
 	html: 'HTML', // substantive
-	video: 'Enŝovu Videon...', // imperative
-	image: 'Enŝovu Bildon...', // imperative
+	video: 'Enŝovu Videon…', // imperative
+	image: 'Enŝovu Bildon…', // imperative
 	table: 'Tabelo', // substantive
 	link: 'Ligu', // imperative
-	link_insert: 'Enŝovu Ligilon ...', // imperative
+	link_insert: 'Enŝovu Ligilon…', // imperative
 	unlink: 'Malligu', // imperative
 	formatting: 'Tekstaranĝo', // substantive
 	paragraph: 'Paragrafo', // substantive
@@ -27,7 +27,7 @@ $.Redactor.opts.langs['eo'] = {
 	insert: 'Enŝovu', // imperative
 	save: 'Konservu',	// imperative
 	_delete: 'Forigu', // imperative
-	insert_table: 'Enŝovu Tabelon...', // imperative
+	insert_table: 'Enŝovu Tabelon…', // imperative
 	insert_row_above: 'Enŝovu Vico Supren', // imperative
 	insert_row_below: 'Enŝovu Vico Malsupren', // imperative
 	insert_column_left: 'Enŝovu Kolumno Maldekstren', // imperative
@@ -49,7 +49,7 @@ $.Redactor.opts.langs['eo'] = {
 	mailto: 'Retpoŝto', // substantive
 	web: 'URL', // substantive
 	video_html_code: 'Videa Enkorpigita Kodo', // substantive
-	file: 'Enŝovu Dosieron...', // imperative
+	file: 'Enŝovu Dosieron…', // imperative
 	upload: 'Alŝutu', // imperative
 	download: 'Elŝutu', // imperative
 	choose: 'Elektu', // imperative

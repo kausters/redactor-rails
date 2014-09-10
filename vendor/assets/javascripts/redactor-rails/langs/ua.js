@@ -5,7 +5,7 @@ $.Redactor.opts.langs['ua'] = {
 	image: 'Зображення',
 	table: 'Таблиця',
 	link: 'Посилання',
-	link_insert: 'Вставити посилання ...',
+	link_insert: 'Вставити посилання…',
 	unlink: 'Видалити посилання',
 	formatting: 'Стилі',
 	paragraph: 'Звичайний текст',

@@ -5,7 +5,7 @@ $.Redactor.opts.langs['sq'] = {
 	image: 'Fotografi',
 	table: 'Tabel&euml;',
 	link: 'Link',
-	link_insert: 'Lidh linq ...',
+	link_insert: 'Lidh linq…',
 	unlink: 'Hiq linkun',
 	formatting: 'Stilet',
 	paragraph: 'Paragraf',

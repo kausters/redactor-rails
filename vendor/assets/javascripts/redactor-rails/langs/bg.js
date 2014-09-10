@@ -5,7 +5,7 @@ $.Redactor.opts.langs['bg'] = {
 	image: 'Изображение',
 	table: 'Таблица',
 	link: 'Връзка',
-	link_insert: 'Вкарай връзка ...',
+	link_insert: 'Вкарай връзка…',
 	unlink: 'Премахни връзка',
 	formatting: 'Стилове',
 	paragraph: 'Параграф',

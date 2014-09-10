@@ -1,11 +1,11 @@
 (function ($) {
 $.Redactor.opts.langs['fa'] = {
 	html: 'اچ تی ام ال',
-	video: 'درج ویدیو...',
+	video: 'درج ویدیو…',
 	image: 'درج تصویر',
 	table: 'جدول',
 	link: 'پیوند',
-	link_insert: 'درج پیوند ...',
+	link_insert: 'درج پیوند…',
 	unlink: 'از بین بردن پیوند',
 	formatting: 'فالب بندی',
 	paragraph: 'پراگراف',
@@ -49,7 +49,7 @@ $.Redactor.opts.langs['fa'] = {
 	mailto: 'ایمیل',
 	web: 'آدرس',
 	video_html_code: 'کد نمایش ویدئو',
-	file: 'درج فایل ....',	
+	file: 'درج فایل….',	
 	upload: 'بارگزاری',
 	download: 'بارگیری',
 	choose: 'انتخاب کنید',

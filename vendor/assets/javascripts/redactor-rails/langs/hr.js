@@ -5,7 +5,7 @@ $.Redactor.opts.langs['hr'] = {
 	image: 'Slika',
 	table: 'Tablica',
 	link: 'Poveznica',
-	link_insert: 'Umetni poveznicu...',
+	link_insert: 'Umetni poveznicu…',
 	unlink: 'Ukloni poveznicu',
 	formatting: 'Stilovi',
 	paragraph: 'Paragraf',

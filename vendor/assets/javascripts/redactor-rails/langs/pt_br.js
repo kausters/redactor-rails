@@ -5,7 +5,7 @@ $.Redactor.opts.langs['pt_br'] = {
 	image: 'Imagem',
 	table: 'Tabela',
 	link: 'Link',
-	link_insert: 'Inserir link...',
+	link_insert: 'Inserir link…',
 	unlink: 'Remover link',
 	formatting: 'Formatação',
 	paragraph: 'Par&aacute;grafo',
