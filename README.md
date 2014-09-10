@@ -76,13 +76,18 @@ If You Want To setup a new language in Redactor you should do two things:
 
 In you file `app\assets\redactor-rails\config.js` set option
 
-    "lang":'zh_tw'
+    "lang":'lv'
 
 and
 
-Add to your layout
+Add to your application.js (version >= 0.4)
 
-    <%= redactor_lang('zh_tw') %>
+    //= require redactor-rails/langs/lv
+
+or add to your layout
+
+    <%= redactor_lang('lv') %>
+
 
 ## Contributing
 
