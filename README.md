@@ -1,5 +1,5 @@
-# Rails 4 Integration for Redactor with Paperclip
-## (No-Devise Edition with Bourbon/Compass support and unset editor styles)
+# Rails 4 Integration for Redactor
+## (Paperclip No-Devise Edition with Bourbon/Compass support and unset editor styles)
 
 The redactor-rails gem integrates the [Redactor](http://redactorjs.com/) editor with the Rails 3.2 asset pipeline.
 
