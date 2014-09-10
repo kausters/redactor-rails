@@ -52,7 +52,7 @@ body .redactor_box_fullscreen {
 	color: #fff;
 }
 
-.redactor_box textarea, .redactor_box textarea:focus {
+.redactor_box textarea {
 	position: relative;
 	display: block;
 	overflow: auto;
