@@ -1,7 +1,7 @@
 # Rails 4 Integration for Redactor
 ## (Paperclip No-Devise Edition with Bourbon/Compass support and unset editor styles)
 
-The redactor-rails gem integrates the [Redactor](http://redactorjs.com/) editor with the Rails 3.2 asset pipeline.
+The redactor-rails gem integrates the [Redactor](http://redactorjs.com/) editor with the Rails asset pipeline.
 
 This gem bundles Redactor version 9.1.9 which is the most recent version as of December 12, 2013. Check [Redactor's changelog](http://imperavi.com/redactor/log/) for further updates.
 
@@ -49,7 +49,7 @@ Add to application.rb:
 
 Add to your `application.js`:
 
-      //= require redactor-rails
+    //= require redactor-rails
 
 Add to your `application.css.scss`:
 
