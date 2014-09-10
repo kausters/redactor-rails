@@ -41,7 +41,7 @@ body .redactor_box_fullscreen {
 .redactor-link-tooltip,
 .redactor-link-tooltip a {
 	font-size: 12px;
-	font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif !important;
+	font-family: sans-serif;
 }
 .redactor-link-tooltip a {
 	color: #ccc;
@@ -66,7 +66,7 @@ body .redactor_box_fullscreen {
 	box-shadow: none;
 	color: #ccc;
 	font-size: 13px;
-	font-family: Menlo, Monaco, monospace, sans-serif;
+	font-family: monospace, sans-serif;
 	resize: none;
 }
 
@@ -88,7 +88,7 @@ body .redactor_box_fullscreen {
 
 .redactor_editor code,
 .redactor_editor pre {
-	font-family: Menlo, Monaco, monospace, sans-serif;
+	font-family: monospace, sans-serif;
 }
 
 .redactor_editor,
@@ -318,7 +318,7 @@ body .redactor_box_fullscreen {
 
 	list-style: none !important;
 	font-size: 0;
-	font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif !important;
+	font-family: sans-serif;
 	line-height: 0 !important;
 
 }
@@ -515,7 +515,7 @@ body .redactor_toolbar li a.redactor_btn_pre		 		{ background-position: -875px; 
 	background-color: #fff;
 	box-shadow: 0 1px 5px #bbb;
 	font-size: 13px;
-	font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	font-family: sans-serif;
 	line-height: 21px;
 }
 .redactor_separator_drop {
@@ -564,7 +564,7 @@ body .redactor_toolbar li a.redactor_btn_pre		 		{ background-position: -875px; 
 	color: #000;
 	text-shadow: 0 1px 0 #fff;
 	font-size: 12px !important;
-	font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	font-family: sans-serif;
 
 }
 #redactor_modal header {
@@ -676,7 +676,7 @@ body .redactor_toolbar li a.redactor_btn_pre		 		{ background-position: -875px; 
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
 	color: #333;
 	font-size: 13px;
-	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	font-family: sans-serif;
 	line-height: 1;
 	-webkit-transition: border 0.3s ease-in;
 	-moz-transition: border 0.3s ease-in;
@@ -707,7 +707,7 @@ body .redactor_toolbar li a.redactor_btn_pre		 		{ background-position: -875px; 
 	text-decoration: none;
 	font-weight: normal;
 	font-size: 12px;
-	font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	font-family: sans-serif;
 	line-height: 1;
 	cursor: pointer;
 }
