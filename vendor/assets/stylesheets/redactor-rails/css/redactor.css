@@ -92,7 +92,6 @@ body .redactor_box_fullscreen {
 }
 
 .redactor_editor,
-.redactor_editor:focus,
 .redactor_editor div,
 .redactor_editor p,
 .redactor_editor ul,
@@ -105,8 +104,7 @@ body .redactor_box_fullscreen {
 	line-height: 1.5rem;
 }
 
-.redactor_editor,
-.redactor_editor:focus {
+.redactor_editor {
 	position: relative;
 	overflow: auto;
 	margin: 0 !important;
