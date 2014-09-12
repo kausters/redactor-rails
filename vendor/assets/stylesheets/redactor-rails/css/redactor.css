@@ -67,7 +67,7 @@ body .redactor_box_fullscreen {
 	position: relative;
 	white-space: normal;
 	outline: 0;
-	padding: 1em 5px 0;
+	padding: 0 5px 0;
 }
 
 .redactor_editor div,
@@ -122,7 +122,7 @@ body .redactor_box_fullscreen {
 .redactor_editor dl,
 .redactor_editor blockquote,
 .redactor_editor pre {
-	margin: 0 0 1em;
+	margin: 1em 0 0;
 }
 .redactor_editor iframe,
 .redactor_editor object,
@@ -293,18 +293,18 @@ body .redactor_box_fullscreen {
 	border-bottom-color: #b8b8b8;
 }
 body .redactor_air .redactor_toolbar {
-	padding-right: 2px !important;
+	padding-right: 2px;
 }
 .redactor_toolbar li {
-	float: left !important;
-	margin: 0 !important;
-	padding: 1px 0 3px 1px;
+	float: left;
+	margin: 0;
+	padding: 3px;
 	outline: none;
-	list-style: none !important;
+	list-style: none;
 }
 .redactor_toolbar li.redactor_separator {
 	float: left;
-	margin: 0 2px 0 3px !important;
+	margin: 0 2px 0 3px;
 	padding: 0;
 	height: 29px;
 	border-right: 1px solid #f4f4f4;
@@ -315,17 +315,11 @@ body .redactor_air .redactor_toolbar {
 	width: 25px;
 	height: 25px;
 	outline: none;
-	border: 1px solid transparent;
-	text-decoration: none;
-	font-size: 0;
-	line-height: 0;
+	font: 0/0 a;
 	cursor: pointer;
-	zoom: 1;
-	*border: 1px solid #eee;
 }
 .redactor_toolbar li.redactor_btn_right {
-	float: none;
-	float: right !important;
+	float: right;
 }
 .redactor_toolbar li a {
 	display: block;
