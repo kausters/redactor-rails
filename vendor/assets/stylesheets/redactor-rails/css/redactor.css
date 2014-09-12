@@ -373,7 +373,7 @@ only screen and (                min-resolution: 2dppx) {
 .redactor_toolbar li a.redactor_btn_outdent	 		{ background-position: -150px; }
 .redactor_toolbar li a.redactor_btn_indent		 	  	{ background-position: -175px; }
 .redactor_toolbar li a.redactor_btn_image		 		{ background-position: -200px; }
-.redactor_toolbar li a.redactor_btn_video		 		{ background-position: -225px; }
+.redactor_toolbar li a.redactor_btn_video		 		{ background-position: -226px; }
 .redactor_toolbar li a.redactor_btn_file		 		{ background-position: -250px; }
 .redactor_toolbar li a.redactor_btn_table		 		{ background-position: -275px; }
 .redactor_toolbar li a.redactor_btn_link		 		{ background-position: -300px; }
