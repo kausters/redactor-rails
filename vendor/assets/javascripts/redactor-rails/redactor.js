@@ -115,7 +115,6 @@
 			linkNofollow: false,
 			linkSize: 50,
 
-			imageFloatMargin: '10px',
 			imageGetJson: false, // url (ex. /folder/images.json ) or false
 
 			imageUpload: false, // url
@@ -5875,13 +5874,11 @@
 
 			if (floating === 'left')
 			{
-				this.imageMargin = '0 ' + this.opts.imageFloatMargin + ' ' + this.opts.imageFloatMargin + ' 0';
-				$el.css({ 'float': 'left', 'margin': this.imageMargin });
+				$el.wrap('<div class="img-left">');
 			}
 			else if (floating === 'right')
 			{
-				this.imageMargin = '0 0 ' + this.opts.imageFloatMargin + ' ' + this.opts.imageFloatMargin + '';
-				$el.css({ 'float': 'right', 'margin': this.imageMargin });
+				$el.wrap('<div class="img-right">');
 			}
 			else
 			{
