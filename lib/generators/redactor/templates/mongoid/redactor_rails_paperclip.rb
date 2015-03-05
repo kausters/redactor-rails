@@ -13,6 +13,6 @@ if Object.const_defined?("RedactorRails")
 
     # Allowed attachment file types for upload.
     # Set to nil or [] (empty array) for all file types
-    # config.attachment_file_types = ["doc", "docx", "xls", "odt", "ods", "pdf", "rar", "zip", "tar", "swf"]
+    # config.document_file_types = ["doc", "docx", "xls", "odt", "ods", "pdf", "rar", "zip", "tar", "swf"]
   end
 end
