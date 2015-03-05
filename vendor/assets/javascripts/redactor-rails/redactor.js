@@ -5872,6 +5872,10 @@
 
 			var floating = $('#redactor_form_image_align').val();
 
+			if (parent.hasClass('img-left') || parent.hasClass('img-right')) {
+				$el.unwrap();
+			}
+
 			if (floating === 'left')
 			{
 				$el.wrap('<div class="img-left">');
