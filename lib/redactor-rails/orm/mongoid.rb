@@ -14,7 +14,7 @@ module RedactorRails
             base.class_eval do
               store_in collection: 'redactor_assets'
 
-              belongs_to :assetable, polymorphic: true
+              belongs_to :assetable, polymorphic: true, optional: true
 
               field :data_file_name, type: String
               field :data_content_type, type: String

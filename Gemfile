@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Specify your gem's dependencies in redactor-rails.gemspec
 gemspec
-gem "rails", "3.2.3"
+gem 'rails', '~> 5.1.2'
 
 
 platforms :ruby do

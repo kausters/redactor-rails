@@ -12,7 +12,7 @@ module RedactorRails
         extension = File.extname(filename)
         basename = filename.gsub(/#{extension}$/, "")
 
-        [basename.parameterize('_'), extension].join.downcase
+        [basename.parameterize(separator: '_'), extension].join.downcase
       end
     end
   end

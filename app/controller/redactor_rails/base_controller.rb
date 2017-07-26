@@ -12,9 +12,9 @@ class RedactorRails::BaseController < ApplicationController
     @redactor.data = RedactorRails::Http.normalize_param(file, request)
 
     if @redactor.save
-      render text: { filelink: @redactor.url }.to_json
+      render plain: { filelink: @redactor.url }.to_json
     else
-      render nothing: true
+      render plain: { error: @redactor.errors }.to_json
     end
   end
 
